@@ -4,6 +4,7 @@ pipeline{
         stage('Install') {
             steps {
                 bat '''
+                cd pg3-react
                 npm install
                 '''
             }
